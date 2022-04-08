@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul {
+    display: flex;
+    padding: 0 100px 0 0;
+}
+
+.li{
+    padding: 30px  ;
+    list-style: none;
+    line-height: 20px;
+}
+.a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.a:hover{
+    color: #F1A600;
+}
+
+.header {
+    position: fixed;
+    background-color: #1F1D2C;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.main {
+    padding: 80px 0 0 0 ;
+    color: #ffff;
+}
+
+.main {
+    background-color: #1F1D2C;
+}
+
+.Nombre {
+    font-size: 150px;
+    font-weight: bold;
+    padding-left: 200px;
+}
+
+.Subtitulo {
+    z-index: 30;
+    font-size: 50px;
+    padding-left: 200px;
+    
+}
+
+.fotoequis {
+    z-index: 20;
+    padding-left: 550px;
+    position: relative;
+    top: -170px;
+    
+
+}
+.aos {
+    color: #F1A600;
+    font-size: 50px;
+    padding-left: 200px;
+
+}
+.dos{
+    font-size: 50px;
+    padding-left: 16px ;
+
+}
+
+.exp{
+    font-size: 50px;
+    padding-left: 200px;
+
+}
+
+.amarilloyblanco {
+    display:flex;
+}
+.linked {
+    position: absolute;
+    top: 500px;
+    left: 205px;
+    height: 70px;
+}
+
+.insta {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    height: 70px;
+}
+.twit {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    height: 70px;
+}
+.acercademi{
+    text-align: center;
+    background-color: #242635;
+    height: 400px;
+}
+
+.uvm {
+    margin-left: 100px;
+    margin-right: 250px;
+    background-color: #242635;
+  
+}
+
+.acerca {
+    font-size: 50px;
+    font-weight: semibold;
+}
