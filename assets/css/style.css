@@ -14,8 +14,8 @@
 .ul {
     display: flex;
     padding: 0 100px 0 0;
-    position: fixed;
-    z-index: 50;
+    
+    
    
 }
 
@@ -57,13 +57,13 @@
     font-size: 150px;
     font-weight: bold;
     padding-left: 100px;
-    position: relative;
-    z-index: 20;
+   /* position: relative;*/
+   
 }
 
 .Subtitulo {
-    position: relative;
-    z-index: 20;
+   /* position: relative;*/
+   
     font-size: 50px;
     padding-left: 100px;
     
@@ -73,7 +73,7 @@
     
     padding-left: 550px;
     position: relative;
-    z-index: 1;
+   
     top: -170px;
     
 
@@ -199,7 +199,7 @@ bottom: 4px;
     font-size: 50px;
     margin-bottom: 25px;
     position: relative;
-    z-index: 10;
+    
 }
 .habilidad {
     color: #ffff;
@@ -217,7 +217,7 @@ bottom: 4px;
     text-align: left;
     margin-left: 300px;
     position: relative;
-    z-index: 10;
+   
 }
 
 .ecommerce {
@@ -339,7 +339,7 @@ margin-left: 450px;
 .cuadrado-fondo1 {
 position: absolute;
 right: 0;
-z-index: 0;
+
 width: 60%;
 }
 
@@ -349,7 +349,7 @@ left: 0;
 
 height: 420px;
 width: 33%;
-z-index: 1;
+
 
 }
 
@@ -375,8 +375,13 @@ display: none;
    background-color: darkslategray;
   position: fixed;
   width: 100%;
-  z-index: 50;
+ top: 60px;
   
+}
+
+.boton-hamburguesa {
+
+    display: block;
 }
 
 
